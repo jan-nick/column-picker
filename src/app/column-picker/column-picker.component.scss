@@ -1,3 +1,9 @@
-.column-picker {
-    
+.column-picker-wrapper {
+    display: grid;
+    place-items: center;
+
+    .picker-column {
+        overflow-y: scroll;
+        scroll-snap-type: mandatory;
+    }
 }
